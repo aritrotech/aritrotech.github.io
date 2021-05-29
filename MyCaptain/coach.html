@@ -1,0 +1,495 @@
+<html>
+<head>
+<title>Coaching Centres</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+body {
+  height: 100%;
+  background-image: linear-gradient(to right, #D3F8FF, #B2ECF8, #98E8F8, #7ADDF1);
+
+ }
+
+@media only screen and (max-width: 1920px){
+.topleft {
+		  position: absolute;
+		  top: 0.3vh;
+		  left: 0.3vh;
+		  font-size: 5vh;
+		  }
+		  
+.topleft img {
+			height: auto; 
+			width: 6vh; 
+			float: left; 
+			display: inline-block;
+		  
+         }
+	#logo {
+		font-size: 4.3vh;
+		font-style: Georgia;
+		margin-top: 1vh;
+		padding-left: 0.5vh;
+} 
+		 
+		 h2 {
+			 font-size: 7vh;
+			 text-align: center;
+			 margin-top: 1vh;
+   }
+.topright {
+		   position: absolute;
+		   top: 3vh;
+		   right: 4vh;
+}		   
+.topright button{
+		font-size: 1.7vh;
+}
+button {
+  background-color: #F41313;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 18px;
+}
+
+.button:hover {
+  background-color: blue;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12vh;
+}
+
+.bottomleft{
+			
+			margin-top: 20.1vh;
+			margin-left: 1vh;
+			font-size: 2vh;
+			padding: 1vh;
+		   } 		 
+.bottomleft img {
+			height: auto; 
+			width: 2vh; 
+			float: left; 
+			display: inline-block;
+	
+	}		   
+	
+#contact{
+			padding: 3vh 0vh 1vh 1vh;
+			height: 3vh; width: 3vh;
+}			
+
+
+.sidenav {
+  height: 100%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 85;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 5vh;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 3vh;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #169BEF;
+}
+.card {
+  width: 40vh;
+  height: 52vh;
+  margin-top: 7vh;
+  margin-bottom: 2vh;
+  float: left;
+  padding: 2.5vh;
+  padding-bottom: 20vh;
+}
+
+.card img{
+	width: 40vh; 
+	height: 40vh;
+}
+
+
+.card:hover {
+
+box-shadow: 1vh 1vh 1vh 1vh dodgerblue;
+}
+
+.container {
+  padding: 2px 40px;
+  background-color: white;
+  font-size: 2.5vh;
+  }
+.main {
+   padding: 16px;
+  margin-top: 30px; 
+  margin-left: 160px;
+}
+p {
+	font-size: 2.3vh;
+}
+
+.social {
+		margin-top: 23.4vh; 
+}
+.socialhandle{
+		padding-left: 5.5vh;
+		margin-top: -3.8vh; 
+}
+#grad1 {
+  background-image: linear-gradient(to right, white, #F2DEE6, #F3C5CE, #F6A5C1);
+}
+#grad2 {
+  background-image: linear-gradient(white, #F2DEE6, #F3C5CE, #F6A5C1);
+}
+
+}
+
+@media only screen and (max-width: 750px) {
+    .topleft{
+			position: absolute;
+			top: 0.3vh;
+			left: 0.3vh;
+			font-size: 3.5vh;
+	
+	}	
+	.topleft img {
+			height: auto; 
+			width: 4vh; 
+			float: left; 
+			display: inline-block;
+    }
+	#logo {
+			
+			font-style: Georgia;
+			margin-top: 1vh;
+			padding-left: 0.5vh;
+    } 
+	.navbar {
+			overflow: hidden;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 10vh;
+	}
+	
+	
+	h2 {
+			font-size: 5vh;
+			text-align: center;
+			margin-top: 1.5vh;
+    }
+	.topright {
+		   position: absolute;
+		   top: 2.5vh;
+		   right: 2vh;
+		   font-size: 1vh;
+          }
+	.topright button{
+			font-size: 1.5vh;
+	
+	}
+	button {
+			background-color: #F41313;
+			border: none;
+			color: white;
+			padding: 4px 8px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			
+			cursor: pointer;
+			border-radius: 14px;
+	}
+
+	.button:hover {
+			background-color: blue;
+	}
+
+	.sidenav {
+			height: 100%;
+			width: 16vh;
+			position: fixed;
+			z-index: 1;
+			top: 10vh;
+			left: 0;
+			overflow-x: hidden;
+			padding-top: 7vh;
+	}
+
+	.sidenav a {
+			padding: 6px 8px 6px 8px;
+			text-decoration: none;
+			font-size: 2.4vh;
+			color: black;
+			display: block;
+	}
+
+	.sidenav a:hover {
+			color: #169BEF;
+	}
+	
+	.social {
+			margin-top: 23.4vh; 
+			
+	}
+	.socialhandle{
+			padding-left: 5vh;
+			margin-top: -3.5vh; 
+			font-size: 1.8vh;
+	}
+	#contact{
+			padding: 3vh 0vh 1vh 1vh;
+			height: 3vh; width: 3vh;
+			
+	}
+	.bottomleft{
+			position: absolute;
+			bottom: 2vh
+			left: 0.3vh;
+			font-size: 1.8vh;
+			padding-left: 0.3vh;
+			
+	}
+	.bottomleft img {
+			height: auto; 
+			width: 2vh; 
+			float: left; 
+			display: inline-block;
+	
+	}
+
+.card {
+  width: 30vh;
+  height: 34vh;
+  margin-top: 1vh;
+  float: left;
+  padding: 2.5vh;
+  padding-bottom: 22.5vh;
+  margin-bottom: 2.5vh;
+}
+.card h3{ font-size: 2.5vh;}
+.card img{
+	width: 30vh; 
+	height: 30vh;
+}
+
+.card:hover {
+
+box-shadow: 1vh 1vh 1vh 1vh dodgerblue;
+}
+.container ul {
+font-size: 2vh;
+}
+
+.container {
+  padding: 2px 15px;
+  background-color: white;
+  }
+  p {
+	font-size: 2vh;
+}
+.main {
+  padding: 2vh;
+  margin-top: 10vh; 
+  margin-left: 15vh;
+}
+
+}
+@media only screen and (max-width: 600px){
+.card {
+  width: 45vh;
+  height: 51vh;
+  margin: 7vh;
+  padding: 4vh;
+  padding-bottom: 22.5vh;
+}
+.card img{
+	width: 45vh; 
+	height: 42vh;
+}
+
+.card:hover {
+
+box-shadow: 1vh 1vh 1vh 1vh dodgerblue;
+}
+.container ul {
+font-size: 2.5vh;
+}
+
+.container {
+  padding: 2px 30px;
+  background-color: white;
+  }
+  p {
+	font-size: 2.3vh;
+}
+.main {
+  padding: 2vh;
+  margin-top: 10vh; 
+  margin-left: 8vh;
+}
+
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+<div class="navbar" id="grad1">
+<div class="topleft"><img src="logo.png">TH</div>
+<h2>Coaching Centres</h2>
+<div class="topright"><a href="index.html"><button class="button">HOME</button></a></div>
+</div>
+
+
+<div class="sidenav" id="grad2">
+
+  <a href="home.html">Home Tutors</a>
+  <a href="online.html">Online Tutors</a>
+  <a href="about_us.html">About Us</a>
+
+<div class="social">
+<img src="facebook.png" id="contact"><div class="socialhandle">TutorHub</div>
+<img src="instagram.png" id="contact"><div class="socialhandle">tutor_hub</div>
+<img src="phone.png" id="contact"><div class="socialhandle">1800 111 222</div>
+</div>  
+<div class="bottomleft"><img src="copyright.png">TutorHub2021</div>
+</div>
+<div class="main" style="margin-bottom: 2vh;">
+<div class="card">
+  <img src="ponka.jpeg">
+  <div class="container">
+    <h3><b>Priyanka Roy</b></h3> 
+    <p>BCA Student</p> 
+	<ul style="margin-left: -3vh">
+	<li>Phone no.: 9876543210</li>
+	<li>E-mail: ponk@gmail.com</li>
+	<li>Subject: Computer Sc. </li>
+	<li>Class: 6 - 10</li>
+	</ul>
+  </div>
+</div>
+<div class="card">
+  <img src="ot1.jpeg">
+  <div class="container">
+    <h3><b>Aritro Dey</b></h3> 
+    <p>B.Sc. Comp. Sc. Student</p> 
+	<ul style="margin-left: -3vh">
+	<li>Phone no.: 9876543210</li>
+	<li>E-mail: ari@gmail.com</li>
+	<li>Subject: Mathematics </li>
+	<li>Class: 6 - 12</li>
+	</ul>
+  </div>
+</div>
+<div class="card">
+  <img src="kaustav.jpeg">
+  <div class="container">
+    <h3><b>Kaustav Sen</b></h3> 
+    <p>B.Sc. Naut. Sc. Student</p> 
+	<ul style="margin-left: -3vh">
+	<li>Phone no.: 9876543210</li>
+	<li>E-mail: koko@gmail.com</li>
+	<li>Subject: Chemistry </li>
+	<li>Class: 6 - 12</li>
+	</ul>
+  </div>
+</div>
+
+<div class="card">
+  <img src="aurin.jpeg">
+  <div class="container">
+    <h3><b>Aurin Biswas</b></h3> 
+    <p>MBBS Student</p> 
+	<ul style="margin-left: -3vh">
+	<li>Phone no.: 9876543210</li>
+	<li>E-mail: mak@gmail.com</li>
+	<li>Subject: Biology </li>
+	<li>Class: 6 - 12</li>
+	</ul>
+  </div>
+</div>
+
+<div class="card">
+  <img src="neel.jpeg">
+  <div class="container">
+    <h3><b>Arghadeep Basak</b></h3> 
+    <p>B.Sc. Electronics Student</p> 
+	<ul style="margin-left: -3vh">
+	<li>Phone no.: 9876543210</li>
+	<li>E-mail: argh@gmail.com</li>
+	<li>Subject: Physics </li>
+	<li>Class: 6 - 12</li>
+	</ul>
+  </div>
+</div>
+<div class="card">
+  <img src="arya.jpeg">
+  <div class="container">
+    <h3><b>Arya Panja</b></h3> 
+    <p>B.Sc. Comp. Sc. Student</p>
+	<ul style="margin-left: -3vh">
+	<li>Phone no.: 9876543210</li>
+	<li>E-mail: arya@gmail.com</li>
+	<li>Subject: Computer Sc.</li>
+	<li>Class: 9 - 12</li>
+	</ul>
+  </div>
+</div>
+<div class="card">
+  <img src="raunak.jpeg">
+  <div class="container">
+    <h3><b>Raunak R</b></h3> 
+    <p>B.Tech. CSE Student</p> 
+	<ul style="margin-left: -3vh">
+	<li>Phone no.: 9876543210</li>
+	<li>E-mail: raun@gmail.com</li>
+	<li>Subject: Mathematics </li>
+	<li>Class: 6 - 10</li>
+	</ul>
+  </div>
+</div>
+
+<div class="card">
+  <img src="bera.jpeg">
+  <div class="container">
+    <h3><b>Sayantan Bera</b></h3> 
+    <p>B.Tech CSE Student</p> 
+	<ul style="margin-left: -3vh">
+	<li>Phone no.: 9876543210</li>
+	<li>E-mail: bera@gmail.com</li>
+	<li>Subject: Computer Sc. </li>
+	<li>Class: 11 - 12</li>
+	</ul>
+  </div>
+</div>
+</div>
+<br><br>
+</body>
+</html>

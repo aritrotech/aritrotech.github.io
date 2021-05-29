@@ -1,0 +1,183 @@
+<html>
+  <head>
+	<title>Homepage</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.topleft {
+		  position: absolute;
+		  top: 0.1vw;
+		  left: 0.3vw;
+		  font-size: 3.2vw;
+         }
+	.topleft img{
+	
+		height: auto; 
+		width: 4vw; 
+		float:left;
+	}
+	.topright {
+		   position: absolute;
+		   top: 1.7vw;
+		   right: 2vw;
+		   font-size: 1.5vw;
+          }
+
+	.about {
+			text-decoration: none;
+			color: black;
+	}
+	.about:hover{
+			color: red;
+	}
+	.bottomleft{
+			position: absolute;
+			bottom: 1vw;
+			left: 1vw;
+			font-size: 2vh;
+		   } 
+	.bottomleft img {
+			height: auto;
+			width: 1vw;
+			float:left;
+	}	   
+	
+	.bottomright{
+			position: absolute;
+			bottom: 2vh;
+			right: 2vh;
+			font-size: 2.5vh;
+		   }	
+#contact{
+			height: auto; 
+			width: 1.5vw; 
+			float:left;
+			padding-left: 2vh;
+			padding-right: 2vh;
+}			
+
+	body { 
+       background-image: url("bgh.png");
+       background-attachment: fixed;
+       background-size: 100% 110%;
+     }
+
+	h1 {
+     font-family: Georgia;
+	 font-size: 6vw;
+	 text-align: center;
+	 color: blue;
+	 margin-top: 0.5vw;
+   }
+   
+   h4{
+		  font-family: Georgia;
+		  text-align: center;
+		  font-size: 1.3vw;
+		  color: red;
+		  margin-top: -4vw;
+        }  
+
+	.caption{
+		  position: absolute;
+		  top: 12.5vh;
+		  left: 82vh;
+		  font-size: 2.5vh;
+		  color: red;
+        }	
+	.intro {
+		text-align: center;
+		font-size: 2vw;
+		border: solid blue;
+		margin: 5vw 15vw 3vw 15vw;
+	}
+	.ani1 {
+	  width: 30vw;
+	  height: 4vw;
+	  position: relative;
+	  animation-name: example1;
+	  animation-duration: 2.5s;
+	  animation-fill-mode: forwards;
+	  text-align: center;
+	  font-size: 3vw;
+	  padding-top: 1vw;
+	}
+
+	@keyframes example1 {
+	  from   {background-color:tomato; left:0vw; top:0vw;}
+	  to  {background-color:tomato; left:35vw; top:0vw;}
+	}
+	.ani1 a:hover {
+     font-weight: bold;
+	
+	}
+	.ani2 {
+	  width: 30vw;
+	  height: 4vw;
+	  position: relative;
+	  animation-name: example2;
+	  animation-duration: 2s;
+	  animation-fill-mode: forwards;
+	  text-align: center;
+	  font-size: 3vw;
+	   padding-top: 1vw;
+	}
+
+	@keyframes example2 {
+	  from   {background-color:tomato; left:70vw;}
+	  to  {background-color:tomato; left:35vw;}
+	}
+	.ani2 a:hover {
+     font-weight: bold;
+	
+	}
+	
+	@media only screen and (max-width: 800px)
+	{
+		.intro {
+		text-align: center;
+		font-size: 4vw;
+		border: solid blue;
+		margin: 5vw 15vw 3vw 15vw;
+	}
+	}
+	</style>
+  </head>
+
+<body>
+<div>
+<div class="topleft">
+<img src="logo.png">TH
+</div>
+<h1>TUTOR HUB</h1>
+<h4>An investment in knowledge pays the best interest</h4>
+<div class="topright"><a href="about_us.html" class="about"><b>ABOUT US</b></a></div></div>
+<div class="intro">Welcome to Tutor Hub!<br/>Enjoy an innovative way of learning through our experienced and dignified teachers.<br/> Its your platform, so what to wait for?<br/> GO THROUGH!</div>
+
+<div class="ani1"><a href="online.html" style="text-decoration: none;color: black;padding-top: 3vh">Online Tutor</a></div></br>
+<div class="ani2"><a href="home.html" style="text-decoration: none;color: black;">Home Tutor</a></div></br>
+<div class="ani1" style="animation-duration: 1.5s;"><a href="coach.html" style="text-decoration: none;color: black;">Coaching Centres</a></div>
+
+
+<div class="bottomleft"><img src="copyright.png">TutorHub2021</div>
+
+<div class="bottomright">
+<a href="#" target="_blank"><img src="facebook.png" id="contact"></a>
+<a href="#" target="_blank"><img src="phone.png" id="contact"></a>
+<a href="#" target="_blank"><img src="instagram.png" id="contact"></a>
+</div>
+
+
+
+
+
+
+
+
+
+ 
+</body>
+</html>
+
+  
+  
+  
